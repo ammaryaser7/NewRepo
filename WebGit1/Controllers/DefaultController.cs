@@ -15,5 +15,11 @@ namespace WebGit1.Controllers
 
             return View();
         }
+        public ActionResult About()
+        {
+            ViewBag.MyAbout = "Text About Here";
+
+            return View();
+        }
     }
 }
