@@ -11,7 +11,7 @@ namespace WebGit1.Controllers
         // GET: Default
         public ActionResult Index()
         {
-            ViewBag.Myname = "Text Here";
+            ViewBag.Myname = "Text Here2";
 
             return View();
         }
