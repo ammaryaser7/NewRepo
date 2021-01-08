@@ -13,7 +13,7 @@ namespace WebGit1.Controllers
         {
             ViewBag.Myname = "Text Here2";
             ViewBag.Myname = "Text Here3 with branch2";
-            ViewBag.Myname = "Text Here4 with branch2";
+            ViewBag.Myname = "Text Here4 with branch6";
 
             return View();
         }
